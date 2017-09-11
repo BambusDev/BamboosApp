@@ -45,7 +45,6 @@ public class Clicker extends AppCompatActivity {
         SharedPreferences.Editor editor = SPR.edit();
         editor.putString("Key",number.getText().toString());
         editor.apply();
-
     }
 
 }
