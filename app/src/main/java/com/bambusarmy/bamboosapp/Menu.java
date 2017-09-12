@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class Menu extends AppCompatActivity {
     Button playClicker;
+    Button openFlashlight;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +19,14 @@ public class Menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Menu.this,Clicker.class));
+            }
+        });
+
+        openFlashlight = (Button)findViewById(R.id.FlashlightBTN);
+        openFlashlight.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Menu.this,Flashlight.class));
             }
         });
     }
