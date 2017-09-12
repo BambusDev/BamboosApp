@@ -13,13 +13,15 @@
         android:layout_height="135dp"
         app:srcCompat="@drawable/icon"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="42dp"
+        android:layout_marginTop="45dp"
         app:layout_constraintLeft_toLeftOf="parent"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintLeft_creator="1"
+        android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent">
 
+    </ImageView>
     <Button
         android:id="@+id/PandaClicker"
         android:layout_width="112dp"
