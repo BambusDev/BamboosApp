@@ -31,7 +31,7 @@ public class Menu extends AppCompatActivity {
             }
         });
         playTickTack = (Button)findViewById(R.id.TickTackBTN);
-        playClicker.setOnClickListener(new View.OnClickListener() {
+        playTickTack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Menu.this,TickTack.class));
